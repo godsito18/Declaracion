@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 70px;
+	font-family: cursive;
+	padding: 10%;
+}
+
+body{
+	background: url(corazones.ico);
+}
+.Contenedor{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.btn{
+	border: 3px solid rgba(100,100,100,0.1);
+	margin-bottom: 20px;
+	padding: 1px;
+	width: 100px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: xx-large;
+	border-radius: 8px;
+	cursor: pointer;
+	color: #000;
+	background-size: 300%;
+	transition: 0.2s;
+}
+
+.btn:hover{
+    background-position: right;
+}
+#yesBtn{
+	background-image: linear-gradient(to left, #00B7DA, #161569, #00B7DA);
+	transform: translate(-100%,0);
+}
+#noBtn{
+	background-image: linear-gradient(to left, #A950A1, #2B3A54, #A950A1);
+	position: absolute;
+}
